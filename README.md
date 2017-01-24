@@ -1,0 +1,1 @@
+This is a small collection of modules that I write while studying algorithms. I also use it as a copy-paste library to solve challenges at coding competitions.
