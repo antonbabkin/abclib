@@ -10,8 +10,9 @@ By Anton Babkin
 #include <string.h>
 
 /* Compare numbers. */
-typedef long num_t
+typedef long num_t;
 int numcmp(const void *xp, const void *yp) {
+  /* for ascending sort */
   num_t x = *(num_t *)xp;
   num_t y = *(num_t *)yp;
   if (x < y) {
